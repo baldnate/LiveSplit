@@ -124,16 +124,16 @@ namespace LiveSplit.View
 
         private void SubmitDialog_Load(object sender, EventArgs e)
         {
-            cbxPlatform.Items.Add("Twitter");
+            //cbxPlatform.Items.Add("Twitter");
 
             if (State.CurrentPhase == TimerPhase.NotRunning || State.CurrentPhase == TimerPhase.Ended)
             {
                 if (HasPersonalBest(Run))
                 {
-                    cbxPlatform.Items.Add("Speedrun.com");
+                    //cbxPlatform.Items.Add("Speedrun.com");
                     if (Congratsio.Instance.CheckIfPersonalBestIsValid(Run))
                     {
-                        cbxPlatform.Items.Add("Congratsio");
+                        //cbxPlatform.Items.Add("Congratsio");
                     }
                     //cbxPlatform.Items.Add("PBTracker");
                     //cbxPlatform.Items.Add("AllSpeedRuns");
@@ -142,10 +142,10 @@ namespace LiveSplit.View
                 //cbxPlatform.Items.Add("Ge.tt");
             }
 
-            cbxPlatform.Items.Add("Twitch");
-            cbxPlatform.Items.Add("Screenshot");
-            cbxPlatform.Items.Add("Imgur");
-            cbxPlatform.Items.Add("Excel");
+            //cbxPlatform.Items.Add("Twitch");
+            //cbxPlatform.Items.Add("Screenshot");
+            //cbxPlatform.Items.Add("Imgur");
+            //cbxPlatform.Items.Add("Excel");
 
             cbxPlatform.SelectedIndex = 0;
             cbxPlatform_SelectionChangeCommitted(null, null);

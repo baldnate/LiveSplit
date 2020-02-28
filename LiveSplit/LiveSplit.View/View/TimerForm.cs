@@ -185,8 +185,8 @@ namespace LiveSplit.View
 
             ComponentManager.BasePath = BasePath;
 
-            SpeedRunsLiveAPI.Instance.RacesRefreshed += SRL_RacesRefreshed;
-            SpeedRunsLiveAPI.Instance.RefreshRacesListAsync();
+            //SpeedRunsLiveAPI.Instance.RacesRefreshed += SRL_RacesRefreshed;
+            //SpeedRunsLiveAPI.Instance.RefreshRacesListAsync();
 
             CurrentState = new LiveSplitState(null, this, null, null, null);
 

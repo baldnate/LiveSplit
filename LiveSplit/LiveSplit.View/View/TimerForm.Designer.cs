@@ -150,18 +150,18 @@
             // 
             // racingMenuItem
             // 
-            this.racingMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.newRaceToolStripMenuItem});
-            this.racingMenuItem.Name = "racingMenuItem";
-            this.racingMenuItem.Size = new System.Drawing.Size(166, 22);
-            this.racingMenuItem.Text = "Races";
-            this.racingMenuItem.MouseHover += new System.EventHandler(this.racingMenuItem_MouseHover);
+            //this.racingMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            //this.newRaceToolStripMenuItem});
+            //this.racingMenuItem.Name = "racingMenuItem";
+            //this.racingMenuItem.Size = new System.Drawing.Size(166, 22);
+            //this.racingMenuItem.Text = "Races";
+            //this.racingMenuItem.MouseHover += new System.EventHandler(this.racingMenuItem_MouseHover);
             // 
             // newRaceToolStripMenuItem
             // 
-            this.newRaceToolStripMenuItem.Name = "newRaceToolStripMenuItem";
-            this.newRaceToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
-            this.newRaceToolStripMenuItem.Text = "New Race...";
+            //this.newRaceToolStripMenuItem.Name = "newRaceToolStripMenuItem";
+            //this.newRaceToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            //this.newRaceToolStripMenuItem.Text = "New Race...";
             // 
             // toolStripSeparator3
             // 
